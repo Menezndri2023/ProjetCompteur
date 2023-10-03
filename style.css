@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    
+text-align: center;
+}
+.global{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.majeur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    
+}
+.mineur{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 55rem;
+    background-color: aliceblue;
+    font-size: medium;
+}
+button{
+    display: flex;
+    border: 3px solid black;
+    height: 29px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+}
+#zero{
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large ;
+    flex-direction: column;
+    
+}
+.decrement{
+    color: red;
+}
+.increment{
+    color: green;
+}
+.reset{
+    color: black;
+}
